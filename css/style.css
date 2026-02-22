@@ -1,8 +1,12 @@
 body {
     font-family: var(--fonte-principal);
-    background-color: #ffffff;
     color: #333333;
-    background-color: black;
+}
+
+main {
+    padding: 2.5rem 0 0;
+    max-width: 1360px;
+    margin: 0 auto;
 }
 
 .btn {
@@ -10,7 +14,6 @@ body {
     height: 48px;
     width: 161px;
     border-radius: 25px;
-    text-decoration: none;
     color: #ffffff;
     font-weight: 400;
     padding: 10px 20px;

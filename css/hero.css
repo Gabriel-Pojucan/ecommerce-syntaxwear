@@ -1,9 +1,9 @@
 .hero-section {
     background: url(../images/banners/hero.jpg.jpg) no-repeat center;
-
     height: 500px;
     position: relative;
     background-size: cover;
+    border-radius: 20px;
 }
 
 .hero-overlay {
