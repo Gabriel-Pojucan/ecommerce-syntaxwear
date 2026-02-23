@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syntaxwear - Tênis e Sneakers Online</title>
-    <meta name="description" content="Encontre os melhores tênis e sneakers online na Syntaxwear. Explore nossa coleção exclusiva de calçados para homens e mulheres. Compre agora e eleve seu estilo!">
+    <meta name="description"
+        content="Encontre os melhores tênis e sneakers online na Syntaxwear. Explore nossa coleção exclusiva de calçados para homens e mulheres. Compre agora e eleve seu estilo!">
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/product-category.css">
     <link rel="stylesheet" href="./css/product-grid.css">
+    <link rel="stylesheet" href="./css/footer.css">
 
 </head>
 
@@ -65,35 +67,35 @@
         <!-- Seção de Categorias de Tênis -->
         <section class="categories-section">
             <!-- Categorias aqui -->
-                <div class="category-card casual">
-                    <a href="#" class="category-link">
-                        <span class="overlay"></span>
-                        <span class="category-name btn-outline btn">Casual</span>
-                    </a>
-                </div>
-                <div class="category-card esporte">
-                    <a href="#" class="category-link">
-                        <span class="overlay"></span>
-                        <span class="category-name btn-outline btn">Esporte</span>
-                    </a>
-                </div>
-                <div class="category-card moderno">
-                    <a href="#" class="category-link">
-                        <span class="overlay"></span>
-                        <span class="category-name btn-outline btn">Moderno</span>
-                    </a>
-                </div>
-                <div class="category-card futurista">
-                    <a href="#" class="category-link">
-                        <span class="overlay"></span>
-                        <span class="category-name btn-outline btn">Futurista</span>
-                    </a>
-                </div>
+            <div class="category-card casual">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn-outline btn">Casual</span>
+                </a>
+            </div>
+            <div class="category-card esporte">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn-outline btn">Esporte</span>
+                </a>
+            </div>
+            <div class="category-card moderno">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn-outline btn">Moderno</span>
+                </a>
+            </div>
+            <div class="category-card futurista">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn-outline btn">Futurista</span>
+                </a>
+            </div>
         </section>
 
         <!-- Grid com Produtos em Destaque -->
         <section class="grid-section">
-             <div class="card highlight">
+            <div class="card highlight">
                 <div class="top1-content">
                     <h3 class="card-title">Krypton One</h3>
                     <p class="card-subtitle">Estilo Urbano com atitude</p>
@@ -102,18 +104,102 @@
                         <a href="#" class="btn btn-outline">Masculino</a>
                     </div>
                 </div>
-             </div>
-             <div class="card sneaker-purple"></div>
-             <div class="card model"></div>
-             <div class="card seneaker-color"></div>
-             <div class="card sneaker-white"></div>
-             <div class="card sneaker-silver"></div>
+            </div>
+            <div class="card sneaker-purple"></div>
+            <div class="card model"></div>
+            <div class="card seneaker-color"></div>
+            <div class="card sneaker-white"></div>
+            <div class="card sneaker-silver"></div>
         </section>
     </main>
 
     <!-- Footer com Informações de Contato e Links -->
-    <footer class="site-footer">
+    <footer class="site-footer" id="footer">
         <!-- Informações de contato e links aqui -->
+        <div class="footer-container">
+            <!-- Newsletter Section -->
+            <div class="footer-right">
+                <form class="newsletter-form">
+                    <label for="newsletter-email">Inscreva-se em nosso e-mail</label>
+                    <input type="email" placeholder="email@email.com">
+                    <!-- Social Media -->
+                    <form>
+                    <div class="social-media">
+                        <p class="social-title">Redes sociais</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">
+                                <img src="images/icons/instagram.svg" alt="Instagram">
+                            </a>
+                            <a href="#" class="social-icon">
+                                <img src="images/icons/whatzapp.svg" alt="whatzapp">
+                            </a>
+                            <a href="#" class="social-icon">
+                                <img src="images/icons/tiktok.svg" alt="TikTok">
+                            </a>
+                            <a href="#" class="social-icon">
+                                <img src="images/icons/facebook.svg" alt="Facebook">
+                            </a>
+                        </div>
+                    </div>
+                    </form>
+                </form>
+            </div>
+
+            <!-- Navigation Columns -->
+            <nav class="footer-nav" id="footer">
+                <!-- Masculino Column -->
+                <div class="footer-column">
+                    <h3 class="column-title">Masculino</h3>
+                    <ul>
+                        <li><a href="#">Casual</a></li>
+                        <li><a href="#">Esporte</a></li>
+                        <li><a href="#">Moderno</a></li>
+                        <li><a href="#">Futurista</a></li>
+                    </ul>
+                </div>
+
+                <!-- Feminino Column -->
+                <div class="footer-column">
+                    <h3 class="column-title">Feminino</h3>
+                    <ul>
+                        <li><a href="#">Casual</a></li>
+                        <li><a href="#">Esporte</a></li>
+                        <li><a href="#">Moderno</a></li>
+                        <li><a href="#">Futurista</a></li>
+                    </ul>
+                </div>
+
+                <!-- Outlet Column -->
+                <div class="footer-column">
+                    <h3 class="column-title">Outlet</h3>
+                    <ul>
+                        <li><a href="#">Masculino</a></li>
+                        <li><a href="#">Feminino</a></li>
+                    </ul>
+                </div>
+
+                <!-- Nossas Lojas Column -->
+                <div class="footer-column">
+                    <h3 class="column-title">Nossas lojas</h3>
+                    <ul>
+                        <li><a href="#">Loja-online</a></li>
+                        <li><a href="#">Loja Física</a></li>
+                    </ul>
+                </div>
+
+                <!-- Saiba mais Column -->
+                <div class="footer-column">
+                    <h3 class="column-title">Sobre</h3>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Missão</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copy">Copyright. All Rights Reserved</div>
     </footer>
 </body>
 
