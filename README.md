@@ -61,7 +61,7 @@ Para ver o site funcionando na sua máquina local:
 
 ---
 
-## ✍️ Autor
+## ✍️ Autor: Gabriel Pojucan.
 
 Desenvolvido como parte do aprendizado em desenvolvimento web.
 
